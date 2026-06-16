@@ -1,0 +1,10 @@
+# Azure Deployment Summary
+
+## Region Chosen
+- **Region:** West Europe
+- **Reason:** Close to end users, compliance with EU data regulations, and low latency.
+
+## Shared Responsibility Model
+- **Microsoft’s Responsibility:** Securing the physical infrastructure, networking, and hypervisor.
+- **Customer’s Responsibility:** Configuring access controls, managing data, patching VMs, and monitoring usage.
+- **Applied to My Resource:** For the VM I deployed, Microsoft secures the underlying hardware and virtualization layer, while I must manage OS updates, firewall rules, and user access.
